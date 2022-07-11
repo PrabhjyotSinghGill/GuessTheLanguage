@@ -9,11 +9,28 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <title>React App</title>
+    <title>Guess The Word</title>
+    <link rel="stylesheet" href="index.css"></link>
   </head>
   <body>
-    <div id="root">
-      
+    <div class="wrapper">
+      <h1>Guess The Word</h1>
+      <div class="content">
+        <div class="inputs">
+          <input type="text" disabled></input>
+          <input type="text" disabled></input>
+          <input type="text" disabled></input>
+          <input type="text" disabled></input>
+          <input type="text" disabled></input>
+          <input type="text" disabled></input>
+        </div>
+        <div class="details">
+            <p class="hint">Hint:<span>Hint will be shown here</span></p>
+            <p class="guess-left">Remaining Guesses:<span>10</span></p>
+            <p class="Wrong Letter">Wrong Letters:<span>a, b, c, d</span></p>
+        </div>
+        <button class="reset-btn">RESET</button>
+      </div>
     </div>
   </body>
 </html>
