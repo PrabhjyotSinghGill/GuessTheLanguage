@@ -22,10 +22,15 @@ body{
 
 .content{
     margin: 25px 25px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .typing-input{
-    
+    opacity:0;
+    z-index:-999;
+    position: absolute;
 }
 
 .inputs{
@@ -44,6 +49,7 @@ body{
     text-align:center;
     background: none;
     border-radius: 5px;
+    text-transform: uppercase;
     border:2px solid #97a675;
 }
 
@@ -61,13 +67,14 @@ body{
 }
 
 .reset-btn{
-    width:100%;
+    width:40%;
     cursor:pointer;
     outline:none;
-    border:none;
     color:#97a675;
     background-color:#eff2d8;
     border-radius: 5px;
     font-size:17px;
     padding:15px 0;
+    border:2px solid #97a675;
+    font-weight: 600;
 }
