@@ -24,6 +24,10 @@ body{
     margin: 25px 25px 35px;
 }
 
+.typing-input{
+    
+}
+
 .inputs{
     display: flex;
     flex-wrap:wrap;
